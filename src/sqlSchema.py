@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS players_teams (
     PostGP INTEGER NOT NULL,
     PostGS INTEGER NOT NULL,
     PostMinutes INTEGER NOT NULL,
-    PostPoints INTEGER NOT NULL,,
+    PostPoints INTEGER NOT NULL,
     PostRebounds INTEGER NOT NULL,
     PostAssists INTEGER NOT NULL,
     PostSteals INTEGER NOT NULL,

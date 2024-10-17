@@ -3,10 +3,10 @@ import numpy as np
 
 
 def get_data():
-    players = pd.read_csv('basketballPlayoffs/players.csv')
-    teams = pd.read_csv('basketballPlayoffs/teams.csv')
-    coaches = pd.read_csv('basketballPlayoffs/coaches.csv')
-    awards_players = pd.read_csv('basketballPlayoffs/awards_players.csv')
+    players = pd.read_csv('../basketballPlayoffs/players.csv')
+    teams = pd.read_csv('../basketballPlayoffs/teams.csv')
+    coaches = pd.read_csv('../basketballPlayoffs/coaches.csv')
+    awards_players = pd.read_csv('../basketballPlayoffs/awards_players.csv')
     players_teams = pd.read_csv('../basketballPlayoffs/players_teams.csv')
     teams_post = pd.read_csv('../basketballPlayoffs/teams_post.csv')
     series_post = pd.read_csv('../basketballPlayoffs/series_post.csv')
